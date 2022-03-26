@@ -7,7 +7,7 @@ import { Component, Input } from "@angular/core";
 })
 export class ExtratoComponent {
   @Input()
-  transferencia: any;
+  transferencias: any[];
 
   constructor() {}
 
